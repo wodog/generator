@@ -1,0 +1,20 @@
+{
+  "name": "trendwood-generator",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "generator": "./bin/trendwood-generator.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.4",
+    "mkdirp": "^0.5.1",
+    "sorted-object": "^1.0.0"
+  }
+}
